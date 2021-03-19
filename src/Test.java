@@ -1,7 +1,7 @@
 public class Test {
     public static void main(String[] args) {
         Test test = new Test();
-        String str = "2aax2[y]]";
+        String str = "3[2[y]]";
         boolean check = test.CheckValid(str);
         if (check) {
             String res = test.Unpucking(str);
